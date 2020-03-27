@@ -10,6 +10,12 @@ class Routes extends Component {
                     <Route path="/">
                         <Login />
                     </Route>
+                    <Route path="/recipes">
+                        <Login />
+                    </Route>
+                    <Route path="/recipes/:recipe_id">
+                        <Login />
+                    </Route>
                 </Switch>
             </Router>
         );
