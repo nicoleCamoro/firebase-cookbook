@@ -12,7 +12,7 @@ class NewRecipe extends Component {
       measurement: "",
       ingredient: ""
     },
-    recipeName: ""
+    recipeImage: ""
   };
   render() {
     const onChangeInput = e => {
@@ -32,6 +32,15 @@ class NewRecipe extends Component {
                 <Form.Control
                   type="text"
                   name="recipeName"
+                  onChange={onChangeInput}
+                />
+              </Form.Group>
+
+              <Form.Group>
+                <Form.Label>Recipe Image</Form.Label>
+                <Form.Control
+                  type="file"
+                  name="recipeImage"
                   onChange={onChangeInput}
                 />
               </Form.Group>
