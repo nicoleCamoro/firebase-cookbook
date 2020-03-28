@@ -6,6 +6,8 @@ import { Navbar, Nav } from "react-bootstrap";
 
 import Login from "./component/Login";
 import Recipes from "./component/Recipes";
+import Recipe from "./component/Recipe";
+import NewRecipe from "./component/NewRecipe";
 
 class Routes extends Component {
   render() {
@@ -17,7 +19,7 @@ class Routes extends Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <Link to="/recipes">Home</Link>
-              <Link to="/new-recipe">New Recipes</Link>
+              <Link to="/new-recipe">New Recipe</Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -29,8 +31,11 @@ class Routes extends Component {
           <Route exact path="/recipes">
             <Recipes />
           </Route>
+          <Route exact path="/new-recipe">
+            <NewRecipe />
+          </Route>
           <Route exact path="/recipes/:recipe_id">
-            <Recipes />
+            <Recipe />
           </Route>
         </Switch>
       </Router>

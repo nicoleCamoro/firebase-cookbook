@@ -19,7 +19,7 @@ class Recipes extends Component {
                 src="https://via.placeholder.com/150/09f/fff.png"
               />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Grilled Spicy Hamburger</Card.Title>
                 <Button variant="primary">Make this</Button>
               </Card.Body>
             </Card>
