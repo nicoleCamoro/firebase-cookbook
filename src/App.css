@@ -1,5 +1,5 @@
 body {
-  background-color: #61dafb !important;
+  background-color: #ffffc5 !important;
 }
 
 .App {
@@ -39,4 +39,14 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn.btn-primary {
+  color: #383838;
+  background-color: #ffdf57;
+  border-color: #ffdf57;
+}
+
+.login-container {
+  height: 100vh;
 }
