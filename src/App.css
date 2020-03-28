@@ -50,3 +50,7 @@ body {
 .login-container {
   height: 100vh;
 }
+
+.app-nav {
+  background-color: #ffdf57 !important;
+}
